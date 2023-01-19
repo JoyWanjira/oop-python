@@ -14,3 +14,13 @@ class Person:
 
 person= Person()
 person.happy()
+
+class School:
+    pupils = 500
+    teachers = 400
+
+    def total(self):
+        mytotal=self.pupils + self.teachers
+        return("The total", mytotal)
+school=School()
+school.total()
